@@ -168,6 +168,17 @@ int main() {
                     system("pause");
                     system("cls");
                 }
+                else
+                    cout << "Data tidak ditemukan" << endl;
+                break;
+            case 3:
+                traverse();
+                break;
+            case 4:
+                searchdata();
+                break;
+            case 5:
+                break;
             }
         
         }
